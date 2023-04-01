@@ -1,0 +1,47 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.keys{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./img/photo_2022-12-03_21-15-03.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.key{
+  background-color: rgb(84, 28, 28);
+  padding: 2rem;
+  color: #ffff;
+  font-size: 25px;
+  margin: 4px;
+  gap:1rem;
+  border: 2px solid black;
+  border-radius: 2px;
+  text-align: center;
+  transition: all .5s ease;
+}
+
+.sound{
+  padding-top: 0.5rem;
+  font-size: 10px;
+  color: #ffc600;
+  text-transform: uppercase;
+}
+
+kbd{
+  display: block;
+  font-size: 25px;
+}
+
+.playing {
+  transform: scale(1.2);
+  box-shadow: 0 0 1rem #ffc600;
+  border-color: #ffc600;
+
+}
